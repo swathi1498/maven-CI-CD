@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: $artifactid.war
+  - source: /
     destination: /usr/local/apache-tomcat-8.5.50/webapps
 hooks:
   ApplicationStop:
