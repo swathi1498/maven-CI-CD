@@ -5,9 +5,9 @@ files:
     destination: /usr/local/apache-tomcat-8.5.50/webapps
 hooks:
   ApplicationStop:
-    - location: scripts/stop_server
+    - location: scripts/stop_ser
       timeout: 300
   ApplicationStart:
-    - location: scripts/start_server
+    - location: scripts/start_ser
       timeout: 300
 
